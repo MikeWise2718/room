@@ -1,0 +1,61 @@
+         \,,,/
+         (o o)
+-----oOOo-(3)-oOOo-----
+plugin activated: tinkerpop.server
+plugin activated: tinkerpop.utilities
+plugin activated: tinkerpop.tinkergraph
+gremlin> g = TinkerGraph.open()
+==>tinkergraph[vertices:0 edges:0]
+gremlin> g.io(IoCore.graphson()).readGraph("gson3.json");
+org.apache.tinkerpop.shaded.jackson.core.JsonParseException: Unrecognized token 'AirIntake': was expecting ('true', 'false' or 'null')
+ at [Source: java.io.ByteArrayInputStream@44d70181; line: 1, column: 29]
+Display stack trace? [yN]
+gremlin> g.io(IoCore.graphson()).readGraph("gson2.json");
+==>null
+gremlin> g
+==>tinkergraph[vertices:27 edges:0]
+gremlin> g = g.traversal()
+==>graphtraversalsource[tinkergraph[vertices:27 edges:0], standard]
+gremlin> g.V(1).valueMap()
+==>[watts:[5], len:[0], name:[AINTK1]]
+gremlin> g.V().values()
+==>AINTK1
+==>ADUCT1
+... lots of them
+gremlin> g.V().has('name','ESOURCE1').repeat(out('powers')).times(1).values('name')
+==>ECOND40
+==>ECOND1
+gremlin> g.V().has('name','ESOURCE1').repeat(out('powers')).times(2).values('name')
+==>EJUNT40
+==>EJUNT40
+==>EOUT1.3
+==>EJUNT1
+==>EJUNT1
+==>EOUT1.1
+==>EOUT1.2
+gremlin> g.V().has('name','ESOURCE1')
+==>v[147]
+gremlin> g.V(147).repeat(out()).times(2).emit().path()
+==>[v[147], v[192]]
+==>[v[147], v[148]]
+==>[v[147], v[192], v[147]]
+==>[v[147], v[192], v[193]]
+==>[v[147], v[192], v[193]]
+==>[v[147], v[148], v[147]]
+==>[v[147], v[148], v[151]]
+==>[v[147], v[148], v[152]]
+==>[v[147], v[148], v[152]]
+==>[v[147], v[148], v[149]]
+==>[v[147], v[148], v[150]]
+gremlin> g.V().has('name','ESOURCE1').repeat(out('powers')).times(2).emit().path().by('name')
+==>[ESOURCE1, ECOND40]
+==>[ESOURCE1, ECOND1]
+==>[ESOURCE1, ECOND40, EJUNT40]
+==>[ESOURCE1, ECOND40, EJUNT40]
+==>[ESOURCE1, ECOND1, EOUT1.3]
+==>[ESOURCE1, ECOND1, EJUNT1]
+==>[ESOURCE1, ECOND1, EJUNT1]
+==>[ESOURCE1, ECOND1, EOUT1.1]
+==>[ESOURCE1, ECOND1, EOUT1.2]
+g.V(147).repeat(out().simplePath()).until(hasId(5)).path().by('name').limit(1)
+==>[ESOURCE1, ECOND1, EJUNT1, ECOND7, EJUNT7, ECOND8, EJUNT8, ECOND9, AVAV2, ADUCT3]

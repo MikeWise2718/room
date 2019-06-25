@@ -1,0 +1,10 @@
+calcTrackIntersections - cdf has 17 locs - starttime:2017-12-31 19:09:43 
+locRTfilter: 
+outside 
+locRoomfilter: 
+moore 
+anglesteps:1 
+montecarloiters:0 
+calcTrackIntersections finished - circles:17 tracks:17  segs:153  hits:43 
+    isects:1744 filts:240251 pot:241995 
+    elap:1.7 secs  - isects:1744 isects/sec:1056.1 

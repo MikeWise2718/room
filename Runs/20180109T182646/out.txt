@@ -1,0 +1,29 @@
+cintercpp starting path:./
+Reading ./pdf.csv
+Read 1 lines from ./pdf.csv
+pdf has 5 cols and 1 lines
+anglesteps|montecarloiters|gridsize|hexgrid|curtrack|
+1|0|1|1|1|
+Reading ./ldf.csv
+Read 1734 lines from ./ldf.csv
+ldf has 3 cols and 1734 lines
+Reading ./tsdf.csv
+Read 39 lines from ./tsdf.csv
+tsdf has 6 cols and 39 lines
+Reading ./bdf.csv
+Read 365 lines from ./bdf.csv
+bdf has 14 cols and 365 lines
+Laid down 5202 values in ldf
+Laid down 234 values in tsdf
+Laid down 5110 values in bdf
+24683490 results need 789.872 MB of mem
+calcIntersections took 1.638 secs
+compactiify found 8333 hits in  0.079 secs
+Read back 66664 values in rdf in 0.057 secs
+Writing ./rdf.csv
+Wrote 8333 lines from ./rdf.csv in 1.543 secs
+grouphits found 1718 grouped hits in  0 secs
+Read back 5154 values in grdf in 0.004 secs
+Writing ./grdf.csv
+Wrote 1718 lines from ./grdf.csv in 0.112 secs
+done

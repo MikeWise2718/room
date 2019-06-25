@@ -1,0 +1,8 @@
+calcTrackIntersections - cdf has 17 locs - starttime:2018-01-01 11:57:27 
+locRTfilter: 
+outside 
+locRoomfilter: 
+moore 
+anglesteps:1 
+montecarloiters:0 
+calcTrackIntersectionsInBatchCpp finished -  elap:0.2 secs 

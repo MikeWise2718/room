@@ -1,0 +1,111 @@
+You just said Save Log
+You just said top
+You just said bottom
+You just said status trace
+keywords rooms num keys:85
+Adding key:room 4060  Val:bho-f05-rm4060
+Adding key:room 4059  Val:bho-f05-rm4059
+Adding key:room 4058  Val:bho-f05-rm4058
+Adding key:room 4057  Val:bho-f05-rm4057
+Adding key:room 4056  Val:bho-f05-rm4056
+Adding key:room 4055  Val:bho-f05-rm4055
+Adding key:room 4054  Val:bho-f05-rm4054
+Adding key:room 4053  Val:bho-f05-rm4053
+Adding key:room 4052  Val:bho-f05-rm4052
+Adding key:room 4051  Val:bho-f05-rm4051
+Adding key:room 4050  Val:bho-f05-rm4050
+Adding key:room 4049  Val:bho-f05-rm4049
+Adding key:room 4048  Val:bho-f05-rm4048
+Adding key:room 4047  Val:bho-f05-rm4047
+Adding key:room 4046  Val:bho-f05-rm4046
+Adding key:room 4045  Val:bho-f05-rm4045
+Adding key:room 4044  Val:bho-f05-rm4044
+Adding key:room 4043  Val:bho-f05-rm4043
+Adding key:room 4042  Val:bho-f05-rm4042
+Adding key:room 4040  Val:bho-f05-rm4040
+Adding key:room 4039  Val:bho-f05-rm4039
+Adding key:room 4038  Val:bho-f05-rm4038
+Adding key:room 4037  Val:bho-f05-rm4037
+Adding key:room 4036  Val:bho-f05-rm4036
+Adding key:room 4035  Val:bho-f05-rm4035
+Adding key:room 4034  Val:bho-f05-rm4034
+Adding key:room 4033  Val:bho-f05-rm4033
+Adding key:room 4032  Val:bho-f05-rm4032
+Adding key:room 4031  Val:bho-f05-rm4031
+Adding key:room 4030  Val:bho-f05-rm4030
+Adding key:room 4029  Val:bho-f05-rm4029
+Adding key:room 4028  Val:bho-f05-rm4028
+Adding key:room 4027  Val:bho-f05-rm4027
+Adding key:room 4026  Val:bho-f05-rm4026
+Adding key:room 4024  Val:bho-f05-rm4024
+Adding key:room 4023  Val:bho-f05-rm4023
+Adding key:room 4022  Val:bho-f05-rm4022
+Adding key:room 4021  Val:bho-f05-rm4021
+Adding key:room 4020  Val:bho-f05-rm4020
+Adding key:room 4019  Val:bho-f05-rm4019
+Adding key:room 4018  Val:bho-f05-rm4018
+Adding key:room 4017  Val:bho-f05-rm4017
+Adding key:room 4016  Val:bho-f05-rm4016
+Adding key:room 4014  Val:bho-f05-rm4014
+Adding key:room 4012  Val:bho-f05-rm4012
+Adding key:room 4011  Val:bho-f05-rm4011
+Adding key:room 4010  Val:bho-f05-rm4010
+Adding key:room 4009  Val:bho-f05-rm4009
+Adding key:room 4008  Val:bho-f05-rm4008
+Adding key:room 4007  Val:bho-f05-rm4007
+Adding key:room 4006  Val:bho-f05-rm4006
+Adding key:room 4005  Val:bho-f05-rm4005
+Adding key:room 4004  Val:bho-f05-rm4004
+Adding key:room 4003  Val:bho-f05-rm4003
+Adding key:room 4095  Val:bho-f05-rm4095
+Adding key:room 4094  Val:bho-f05-rm4094
+Adding key:room 4093  Val:bho-f05-rm4093
+Adding key:room 4092  Val:bho-f05-rm4092
+Adding key:room Stairs404  Val:bho-f05-rmStairs404
+Adding key:room Stairs402  Val:bho-f05-rmStairs402
+Adding key:room Stairs401  Val:bho-f05-rmStairs401
+Adding key:room Elev402  Val:bho-f05-rmElev402
+Adding key:room Elev401  Val:bho-f05-rmElev401
+Adding key:room FrontDesk  Val:bho-f05-rmFrontDesk
+Adding key:DefEndNode  Val:bho-f05-rm4005
+Adding key:DefStartNode  Val:bho-f05-rmFrontDesk
+Adding key:Womens Room 2  Val:bho-f05-rm4049
+Adding key:Mens Room 2  Val:bho-f05-rm4047
+Adding key:Womens Room  Val:bho-f05-rm4028
+Adding key:Mens Room  Val:bho-f05-rm4026
+Adding key:Elevator  Val:bho-f05-rmElev401
+Adding key:Allen  Val:bho-f05-rm4016
+Adding key:Paul Allen  Val:bho-f05-rm4016
+Adding key:Leibnitz  Val:bho-f05-rm4014
+Adding key:Gottfried Leibnitz  Val:bho-f05-rm4014
+Adding key:Nixdorf  Val:bho-f05-rm4007
+Adding key:Heinz Nixdorf  Val:bho-f05-rm4012
+Adding key:Zuse  Val:bho-f05-rm4007
+Adding key:Konrad Zuse  Val:bho-f05-rm4007
+Adding key:Moore  Val:bho-f05-rm4006
+Adding key:Gordon Moore  Val:bho-f05-rm4006
+Adding key:Hopper  Val:bho-f05-rm4005
+Adding key:Grace Hopper  Val:bho-f05-rm4005
+Adding key:Gates  Val:bho-f05-rm4004
+Adding key:Bill Gates  Val:bho-f05-rm4004
+Refresh rgo - Scale:1  Rotate:0 Translate:(0.0, 0.0, 0.0)
+lpt:(-0.3, 0.4, -0.4)
+A * path length:7 len:21.15931
+Calling astar
+Refresh rgo - Scale:1  Rotate:0 Translate:(0.0, 0.0, 0.0)
+Show floor plan:True
+Added 64 voice keywords - wildones:64
+  wildtoadd:74  maxVoiceKeywords:100
+Add Spur Link:4054
+Add Spur Link:4050
+Add Spur Link:4044
+Add Spur Link:out91c
+Add Spur Link:out91b
+Add Spur Link:out91a
+Add Spur Link:out93
+Add Spur Link:out92
+You just said gen b h o
+Spatial Mapping False
+Found Spatial Mapping Component
+Found SpatialMapper GameObject
+keywords1 started num keys:97

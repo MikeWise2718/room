@@ -1,0 +1,1 @@
+﻿{ "id":147, "label":"ElecSource", "inE":{ "poweredby":[{ "id": 218, "outV": 148 }, { "id": 338, "outV": 192 }] }, "outE":{ "powers":[{ "id": 217, "inV": 148 }, { "id": 337, "inV": 192 }] }, "properties":{ "name":[{ "id": 438, "value": "ESOURCE1" }], "len":[{ "id": 439, "value": "0" }], "watts":[{ "id": 440, "value": "0" }] } }
